@@ -12,6 +12,7 @@ export class NavBarComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    console.log("Iniating navbar");
   }
 
   @HostListener('window:scroll', ['$event'])
