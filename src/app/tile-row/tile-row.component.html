@@ -1,0 +1,11 @@
+<div class="row">
+  <h2>{{ getTitle(title) }}</h2>
+
+  <div class="row__posters">
+    <img
+      class="row__poster"
+      *ngFor="let movie of Movies"
+      src="https://image.tmdb.org/t/p/original/{{ movie.poster_path }}"
+    />
+  </div>
+</div>

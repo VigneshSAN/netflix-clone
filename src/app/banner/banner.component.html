@@ -1,0 +1,21 @@
+<header
+  class="banner banner-img"
+  [style.background]="
+    'url(https://image.tmdb.org/t/p/original/' + movie?.backdrop_path + ')'
+  "
+>
+  <div class="banner__contents">
+    <h1 class="banner__title">
+      {{ movie?.title || movie?.name || movie?.original_name }}
+    </h1>
+
+    <div class="banner__buttons">
+      <button class="banner__button">Play</button>
+      <button class="banner__button">My List</button>
+    </div>
+
+    <h1 class="banner__decription">{{ truncate(movie?.overview, 150) }}</h1>
+  </div>
+
+  <div class="banner__fadeBottom"></div>
+</header>
