@@ -1,6 +1,6 @@
 # NetflixClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.1.
+Netflix clone is a project that is developed in Angular latest version. The main purpose of creating the netflix clone is for learning purpose and to check my HTML, CSS, and Angular knowledge.
 
 ## Development server
 
